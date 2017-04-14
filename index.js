@@ -1,10 +1,7 @@
 var slackTerminal = require('slack-terminalize');
-var request = require('request');
-var Q = require('q');
 var Client = require('node-rest-client').Client;
 
-var token = 'xoxb-151869093908-yHCrJj04kk4YRgWZKKWc6Tjf';
-var tokenUser = 'xoxp-17438507472-17439619056-33855016146-12058bcf05';
+
 
 var Slack = require('@slack/client');  
 var RtmClient = Slack.RtmClient;  
